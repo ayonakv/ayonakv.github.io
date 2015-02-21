@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document 
+
+Dark Red: #862e19
+Cyan: #45b5dd
+Light Gray: #cccccc
+Dark Gray: #666666
+White: #ffffff
+
+*/
+
+body {
+	width: 910px;
+	margin: 1.5em auto; /*centers */
+	border: 10px solid #B40F69;
+	background-image: url(fondo-color-cian.jpg);
+	background-repeat:repeat;
+	padding: 50px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+html {
+	background-color: #000;
+	background-image:url(bg.jpg);
+	background-repeat:repeat-y;
+
+}
+
+
+h2 {
+	color: #FFF;
+	background-color:#B40F69;
+	padding: 7px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000000;
+}
+
+h3 {
+	color: #B40F69;
+}
+
+#pic {
+	border:5px solid #333333;
+	width:200px;
+	height:200px;
+
+}
+
+a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration:none;
+}
+a:hover {
+	color:#FFFF00;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a:visited {
+	color:#0000FF;
+}
+
+a:active {
+	background-color:#ccc;
+}
+
+#nav {
+	list-style-type:none;
+	background-color: #B40F69;
+	width: 900px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000000;
+	text-align:center;
+}
+#nav li{
+	display:inline;
+}
+
+#nav a{
+	padding-right:30px;
+	padding-left:30px;
+	border-right:2px solid #000;
+}
+
+#nav li:last-child a{
+	border-right:none;
+}
+
+#nav li:hover{
+	background-color:#333333;
+}
+
+#nav a:hover{
+	color:#00CCFF;
+}
+
+#quote{
+	text-align:center;
+	font-size:18px;
+
+}
+
+#family{
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+}
+#hobby{
+	font-size:16px;
+	font-weight:normal;
+}
+	
+#header{
+	width:800px;
+	border:5px solid #333333;
+}
+
+#footer {
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: -50px;
+	font-size: small;
+	color:#00CCFF;
+	margin-left:-50px;
+	margin-right:-50px;
+}
+
+#footer p {
+	margin: 0;
+}
+
+.valid{
+	float:right;
+	border:2px solid #00CCFF;
+}
